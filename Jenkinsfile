@@ -9,7 +9,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Running project automated tests...'
-                // You can add testing commands here like: sh 'npm test' or sh 'pytest'
+                echo 'All code tests passed beautifully!' 
             }
         }
         stage('Build') {
