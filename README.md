@@ -7,7 +7,7 @@ void hallISR() {
 }
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(2000);
 
   pinMode(2, INPUT_PULLUP);
   attachInterrupt(digitalPinToInterrupt(2), hallISR, FALLING);
