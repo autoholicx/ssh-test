@@ -1,4 +1,4 @@
-# ssh-test github-log-test
+#  github-log-test
 volatile unsigned long pulseCount = 0;
 unsigned long lastTime = 0;
 
