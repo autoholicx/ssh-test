@@ -15,7 +15,7 @@ void setup() {
 
 void loop() {
   
-  if (millis() - lastTime >= 1000) {
+  if (millis() - lastTime >= 9600) {
 
     noInterrupts();
     unsigned long count = pulseCount;
@@ -30,4 +30,4 @@ void loop() {
     lastTime = millis();
   }
 }
-
+a
