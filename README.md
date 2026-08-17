@@ -1,4 +1,4 @@
-# ssh-test webhook test
+# ssh-test github-webhook
 volatile unsigned long pulseCount = 0;
 unsigned long lastTime = 0;
 
